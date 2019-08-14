@@ -41,10 +41,9 @@ registros, depois o nome do item contido no(s) registro(s) a ser pesquisado, se 
 tabela csv, o programa exibirá na tela todos os registros do arquivo csv("dbcsv.csv") que atendam a essas condições de busca, se não encotrar nada 
 ele simplesmente imprimirá na tela que "nenhum registro foi encontrado".
 
-* **5. Gerar arquivo csv:** Pede ao usuário para digitar os nomes das chaves(colunas) da tabela csv e cria o arquivo csv com o nome "dbcsv.csv" na pasta do programa.
-Os nomes das chaves não podem conter vírgulas e nem aspas.
+* **5. Gerar arquivo csv:** Pede ao usuário para digitar os nomes das chaves(colunas) da tabela csv e cria o arquivo csv com o nome "dbcsv.csv" na pasta do programa. Os nomes das chaves não podem conter vírgulas e nem aspas.
 
-	Por fim para utilizar a tabela csv gerada e editada pelo programa no excel, basta abrir o excel, ir na aba dados, clicar em obter dados externos -> De texto,
+Por fim para utilizar a tabela csv gerada e editada pelo programa no excel, basta abrir o excel, ir na aba dados, clicar em obter dados externos -> De texto,
 escolher o arquivo csv, depois de escolher o arquivo se abrirá uma nova janela, nela mude a origem do arquivo para "1252: Europeu Ocidental (Windows)", clique
 em avançar, agora nessa etapa escolha como delimitador a vírgula e avance para o próximo passo, depois clique em concluir, outra janela se abrirá e nela basta
 escolher a célula onde quer importar a tabela csv e clicar em OK, pronto os dados do arquivo csv foram importados para o excel.
