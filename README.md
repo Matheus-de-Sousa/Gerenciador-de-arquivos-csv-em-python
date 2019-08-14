@@ -8,6 +8,8 @@ O CSV é uma implementação particular de arquivos de texto separados por um de
 O formato também usa as aspas em campos no qual são usados os caracteres reservados (vírgula e quebra de linha). Essa robustez no formato torna o CSV mais 
 amplo que outros formatos digitais do mesmo segmento.
 
+<br/>
+
 ![Csv em texto](https://github.com/Matheus-de-Sousa/Gerenciador-de-arquivos-csv-em-python/blob/master/Csv%20em%20texto.png)
 Arquivo csv em texto bruto
 
@@ -45,6 +47,8 @@ ele simplesmente imprimirá na tela que "nenhum registro foi encontrado".
 
 * **5. Gerar arquivo csv:** Pede ao usuário para digitar os nomes das chaves(colunas) da tabela csv e cria o arquivo csv com o nome "dbcsv.csv" na pasta do programa. Os nomes das chaves não podem conter vírgulas e nem aspas.
 
+<br/><br/>
+
 [![Tabela csv no programa](https://github.com/Matheus-de-Sousa/Gerenciador-de-arquivos-csv-em-python/blob/master/Tabela%20csv%20exemplo.png)](https://www.youtube.com/watch?v=iqHVYpXGNLE)
 Clique na imagem acima para ver um vídeo sobre o funcionamento do programa
 
@@ -55,7 +59,7 @@ escolher o arquivo csv, depois de escolher o arquivo se abrirá uma nova janela,
 em avançar, agora nessa etapa escolha como delimitador a vírgula e avance para o próximo passo, depois clique em concluir, outra janela se abrirá e nela basta
 escolher a célula onde quer importar a tabela csv e clicar em OK, pronto os dados do arquivo csv foram importados para o excel.
 
-<br/>
+<br/><br/>
 
 ![Tabela csv no excel](https://github.com/Matheus-de-Sousa/Gerenciador-de-arquivos-csv-em-python/blob/master/Tabela%20csv%20no%20excel.png)
 Tabela csv no excel
