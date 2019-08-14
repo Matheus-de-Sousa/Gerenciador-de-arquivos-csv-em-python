@@ -14,17 +14,17 @@ amplo que outros formatos digitais do mesmo segmento.
 
 ## Funcionamento
 
-Este programa foi criado em python 3 e funciona oferecendo opções ao usuário relacionadas com o gerenciamento de um arquivo csv 
+Este programa foi criado em python 3 e funciona oferecendo opções ao usuário relacionadas com o gerenciamento de um arquivo csv, 
 como: visualizar, adicionar, deletar ou buscar registros de uma tabela csv. Para escolher uma das opções basta digitar no teclado o número correspondente a ela e pressionar enter.
   
-   Após a escolha de uma das opções o programa pedirá ao usuário as informações necessárias para prosseguir,por exemplo, o que ele deseja pesquisar, nome da chave que quer inserir na tabela, nome do item que deseja deletar, etc. Com isso o programa pode continuar, exibindo informações pertinentes ao usuário e atualizando o arquivo csv se necessário.
+   Após a escolha de uma das opções o programa pedirá ao usuário as informações necessárias para prosseguir, por exemplo, o que ele deseja pesquisar, nome da chave que quer inserir na tabela, nome do item que deseja deletar, etc. Com isso o programa pode continuar, exibindo informações pertinentes ao usuário e atualizando o arquivo csv se necessário.
    
   Porém primeiramente o usuário deve se certificar de que na pasta onde está o programa existe um arquivo com o nome "dbcsv.csv", pois é esse o arquivo que o programa vai utilizar para salvar e ler os dados da tabela csv, esse arquivo pode ser criado no próprio programa na opção "Gerar arquivo csv" ou criado manualmente e salvo com o nome "dbcsv" e extensão ".csv", caso esse arquivo não exista o programa pode exibir um erro, dependendo do que seja solicitado à ele. 
 
 ## Como usar
 
 
-Abra o programa bdcsv.py em um interpretador do python 3 e execute o código, serão exibidas 5 opções que poderão ser escolhidas digitando
+Abra o programa csv Manager.py em um interpretador do python 3 e execute o código, serão exibidas 5 opções que poderão ser escolhidas digitando
 o número delas no teclado e pressionando enter. Mas antes de escolher alguma opção gere o arquivo csv de nome "dbcsv.csv" na pasta do programa, isso pode 
 ser feito manualmente ou automaticamente através do própio programa escolhendo a opção 5, com isso você poderá escolher qualquer uma das outras opções sem
 que o programa exiba um erro. As opções e suas funções são:
@@ -41,7 +41,7 @@ as chaves da tabela csv, depois disso o novo registro é salvo no arquivo csv("d
 
 * **4. Buscar registro:** Solicita que seja inserido o nome da chave(coluna) onde está o item que será utilizado como palavra-chave para a busca do registro ou dos 
 registros, depois o nome do item contido no(s) registro(s) a ser pesquisado, se esse item existir nessa chave em algum dos registros da 
-tabela csv, o programa exibirá na tela todos os registros do arquivo csv("dbcsv.csv") que atendam a essas condições de busca, se não encotrar nada 
+tabela csv, o programa exibirá na tela todos os registros do arquivo csv("dbcsv.csv") que atendam a essas condições de busca, se não encontrar nada 
 ele simplesmente imprimirá na tela que "nenhum registro foi encontrado".
 
 * **5. Gerar arquivo csv:** Pede ao usuário para digitar os nomes das chaves(colunas) da tabela csv e cria o arquivo csv com o nome "dbcsv.csv" na pasta do programa. Os nomes das chaves não podem conter vírgulas e nem aspas.
